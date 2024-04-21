@@ -25,10 +25,7 @@ int main() {
 
   std::cout << (found ? "true" : "false") << " ";
   for (int i = 0; i < list.size(); i++) {
-    std::cout << list[i];
-    if (i != list.size() - 1) {
-      std::cout << " ";
-    }
+    std::cout << list[i] << " ";
   }
   std::cout << std::endl;
 
